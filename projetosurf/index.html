@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+   <html lang="PT-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/surf.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER / SLIDE CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Loja de Surf</title>
+   </head>
+   <body>
+      <!--==================== HEADER =====d===============-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <img src="/assets/img/surf (1).png" alt=""> Loja de Surf
+            </a>
+            
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>ínicio</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#featured" class="nav__link">
+                        <img src="/assets/img/surf (1).png" alt="">
+                        <span>Destaques</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#discount" class="nav__link">
+                        <i class="ri-price-tag-3-line"></i>
+                        <span>Descontos</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#new" class="nav__link">
+                        <i class="ri-bookmark-line"></i>
+                        <span>Nova Pranchas</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#testimonial" class="nav__link">
+                        <i class="ri-message-3-line"></i>
+                        <span>Depoimentos</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <i class="ri-search-line search-button" id="search-button"></i>
+               
+               <!-- Login button -->
+               <i class="ri-user-line login-button" id="login-button"></i>
+
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="O que está procurando?" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login grid" id="login-content">
+         <form action="" class="login__form grid">
+            <h3 class="login__title">Login</h3>
+            
+            <div class="login__group grid">
+               <div>
+                  <label for="login-email" class="login__label">Email</label>
+                  <input type="email" placeholder="Digite seu melhor Email" id="login-email" class="login__input">
+               </div>
+               
+               <div>
+                  <label for="login-pass" class="login__label">Senha</label>
+                  <input type="password" placeholder="Digite sua Senha" id="login-pass" class="login__input">
+               </div>
+            </div>
+
+            <div>
+               <span class="login__signup">
+                  Você não tem uma conta? <a href="#">Registre-se</a>
+               </span>
+   
+               <a href="#" class="login__forgot">
+                  Esqueceu sua senha?
+               </a>
+   
+               <button type="submit" class="login__button button">Login</button>
+            </div>
+         </form>
+
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Escolha o <br>
+                     seu verão
+                  </h1>
+
+                  <p class="home__description">
+                     Encontre as melhores pranchas para surfar. <br>
+                     Escolha o melhor para seu estilo de vida. <br>
+                     De competidores à Iniciantes                   
+                  </p>
+
+                  <a href="#" class="button">Descubra mais</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                           <img src="/assets/img/vetorsrf/prancha2.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="/assets/img/vetorsrf/prancha3.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="/assets/img/vetorsrf/prancha5.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="/assets/img/vetorsrf/prancha4.png" alt="image" class="home__img">
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVIÇOS ====================-->
+         <section class="services section">
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <i class="ri-truck-line"></i>
+                  <h3 class="services__title">Frete Grátis</h3>
+                  <p class="services__description">Encomende mais que RR$ 500</p>
+               </article>
+
+               <article class="services__card">
+                  <i class="ri-lock-2-line"></i>
+                  <h3 class="services__title">Pagamento Seguro</h3>
+                  <p class="services__description">Pagamento 100% Seguro</p>
+               </article>
+
+               <article class="services__card">
+                  <i class="ri-customer-service-2-line"></i>
+                  <h3 class="services__title">Suporte 24 Horas</h3>
+                  <p class="services__description">Nos chame a qualquer hora</p>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== COLEÇÕES ====================-->
+         <section class="featured section" id="featured">
+            <h2 class="section__title">
+               Kits Recomendados
+            </h2>
+
+            <div class="featured__container container">
+               <div class="featured__swiper swiper">
+                  <div class="swiper-wrapper">
+                     
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha4.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+                     
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha4.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">R$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kit Verão</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">RR$511.99</span>
+                           <span class="featured__price">R$19.99</span>
+                        </div>
+
+                        <button class="button">Adicionar ao Carrinho</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+                  </div>
+
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== DISCOUNT ====================-->
+         <section class="discount section" id="discount">
+            <div class="discount__container container grid">
+               <div class="discount__data">
+                  <h2 class="discount__title section__title">
+                     Até 50% de Desconto
+                  </h2>
+
+                  <p class="discount__description">
+                     Aproveite os dias de desconto que temos para você,
+                     compre pranchas e kits dos seus competidores favoritos,
+                     quanto mais comprar, mais desconto temos para você.
+                  </p>
+
+                  <a href="#" class="button">Compre Agora</a>
+               </div>
+
+               <div class="discount__images">
+                  <div class="__img-1"><img src="/assets/img/imgsurf/pexels-jess-loiterton-9259668.jpg" alt=""></div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== Nova Pranchas / New Boards ====================-->
+         <section class="new section" id="new">
+            <h2 class="section__title">
+               Nova Pranchas
+            </h2>
+
+            <div class="new__container container">
+               <div class="new__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha4.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha4.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha5.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha5.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha4.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="new__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha4.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha5.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha5.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha5.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/vetorsrf/prancha3.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Nova Prancha</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">R$7.99</span>
+                              <span class="new__price">R$14.99</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== JOIN ====================-->
+         <section class="join section">
+            <div class="join__container">
+               <img src="/assets/img/imgsurf/pexels-serg-alesenko-14740929.jpg" alt="image" class="join__bg">
+
+               <div class="join__data container grid">
+                  <h2 class="join__title section__title">
+                     Inscreva-se para <br> receber as últimas atualizações
+                  </h2>
+   
+                  <form action="" class="join__form">
+                     <input type="email" placeholder="Deixe seu melhor email" class="join__input">
+                     <button type="submit" class="join__button button">Se Inscreva</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== TESTIMONIAL ====================-->
+         <section class="testimonial section" id="testimonial">
+            <h2 class="section__title">
+               Avaliações de Clientes
+            </h2>
+
+            <div class="testimonial__container container">
+               <div class="testimonial__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/pexels-leah-newhouse-3722178.jpg" alt="img" class="testimonial__img">
+
+                        <h2 class="testimonial__title">Sophia Ferreira</h2>
+                        <p class="testimonial__description">
+                           O melhor site para comprar kits de Surf , a compra é
+                           muito fácil de fazer e tem ótimos descontos.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/pexels-leah-newhouse-3722178.jpg" alt="img" class="testimonial__img">
+
+                        <h2 class="testimonial__title">Vanessa Ferraz</h2>
+                        <p class="testimonial__description">
+                           O melhor site para comprar kits de Surf , a compra é
+                           muito fácil de fazer e tem ótimos descontos.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial-perfil-4.png" alt="img" class="testimonial__img">
+
+                        <h2 class="testimonial__title">Daniel Batista</h2>
+                        <p class="testimonial__description">
+                           O melhor site para comprar kits de Surf , a compra é
+                           muito fácil de fazer e tem ótimos descontos.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial-perfil-4.png" alt="img" class="testimonial__img">
+
+                        <h2 class="testimonial__title">André Vieira</h2>
+                        <p class="testimonial__description">
+                           O melhor site para comprar kits de Surf , a compra é
+                           muito fácil de fazer e tem ótimos descontos.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">
+                  <img src="/assets/img/surf (1).png" alt=""></i> Loja de Surf
+               </a>
+
+               <p class="footer__description">
+                  Descubra e explore os <br>
+                  melhores kits e pranchas de surf <br>
+                  dos seus competidores favoritos
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">Sobre</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Prêmios</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">FAQs</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Política de Privacidade</a>
+                     </li>
+                     
+                     <li>
+                        <a href="#" class="footer__link">Termos de serviço</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Empresa</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Blogs</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Comunidade</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Nosso Time</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Centro de Ajuda</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contato</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <address class="footer__info">
+                           Av. Valadão <br>
+                           Lima 4321, Brasil 
+                        </address>
+                     </li>
+
+                     <li>
+                        <address class="footer__info">
+                           e.surf@email.com <br>
+                           (31) X XXXX-XXXX
+                        </address>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+
+                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+
+                     <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By Rafael Rodrigues | PDITA 394
+
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
